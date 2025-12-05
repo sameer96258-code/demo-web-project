@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 5</title>
+
+</head>
+
+<body>
+    <fieldset>
+        <header>
+            <h2 align="center"> Student Registration Form</h2>
+        </header>
+        <hr>
+        <form action="">
+            <fieldset>
+                <legend> student data</legend>
+                <label for="name">full name:</label> &nbsp;
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required> <br> <br>
+
+                <label for="email">email:</label> &nbsp;
+                <input type="email" id="email" name="email" placeholder="Enter your email" required> <br><br>
+
+                <label for="password">password:</label> &nbsp;
+                <input type="password" id="password" name="password" placeholder="Enter password" required>
+                <br><br>
+
+                <label for="gender">gender:</label> &nbsp;
+                <label for="male">male</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+
+                <label for="female">female</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+
+                <label for="others">others</label>
+                <input type="radio" id="others" name="gender" value="others" required> <br><br>
+
+                <label for="course">course:</label> &nbsp;
+                <select name="course" id="course">
+                    <option>Select</option>
+                    <option value="b.tech">B. Tech.</option>
+                    <option value="bba">BBA</option>
+                    <option value="mba">MBA</option>
+                    <option value="bca">BCA</option>
+                    <option value="mca">MCA</option>
+                </select> <br><br>
+
+                <label for="address">address:</label> <br>
+                <textarea name="address" id="address" rows="5" cols="70"> </textarea> <br><br>
+
+                <input type="submit">
+                <input type="reset">
+            </fieldset>
+            <hr>
+            <footer align="center">
+                &copy; 2025 studert registration portal
+            </footer>
+        </form>
+    </fieldset>
+</body>
+
+</html>
