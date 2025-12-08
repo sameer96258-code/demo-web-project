@@ -1,0 +1,41 @@
+body {
+    /* text-align: center; */
+   
+}
+
+p {
+    background-color: color-mix(in srgb, blue 50%, yellow 20%);
+    color: white;
+    height: 50px;
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.ece {
+    background-color: lightblue;
+    color: rgb(28, 27, 29);
+}
+
+
+.div {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    /* display: inline-block; */
+    text-align: center;
+    align-content: center;
+    /* margin: 20px; */
+}
+
+#b2 {
+    margin-left: 202px;
+}
+
+#b3 {
+    margin-left: 404px;
+}
+
+#b4 {
+    margin-left: 606px;
+}
