@@ -1,0 +1,47 @@
+.cont {
+    height: 500px;
+    width: 500px;
+    background-color: rgba(224, 224, 26, 0.105);
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* this property apply only when there is shrinking of boxes */
+    justify-content: space-around;
+    align-items: end;  /* check it out more */
+    align-content: space-evenly; /* app same as row if there is more than one columns*/
+}
+
+.item {
+    border: 1px solid rgb(19, 112, 39);
+    height: 100px;
+    width: 100px;
+    background-color: rgba(46, 230, 46, 0.47);
+    text-align: center;
+    align-content: center; /* make text at center without flex*/
+    flex-grow: 1 ;
+}
+.box6 {
+    order: -1; /* order are like indexs. number line kee jaise hee order hoga*/
+}
+
+ .box1 {
+    height: 100px;
+    width: 100px;
+    flex-shrink:2; 
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+}
+
+./* .box3 {
+    height: 150px;
+    width: 100px;
+}
+
+.box4 {
+    height: 250px;
+    width: 100px;
+} */
