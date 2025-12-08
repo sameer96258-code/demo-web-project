@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- table and its contant -->
+    <table caption=" student data">
+        <tr>
+            <th>FIRST NAME</th>
+            <th>SURNAME</th>
+            <th>AGE</th>
+        </tr>
+        <tr>
+            <td>shivam </td>
+            <td>verma </td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>shashwat </td>
+            <td>panday</td>
+            <td>19</td>
+
+        </tr>
+        <tr>
+            <td>sanskar</td>
+            <td>gaur</td>
+            <td>18</td>
+        </tr>
+    </table>
+    <br><br>
+    <table border="3" cellspacing="0" cellpadding="4" caption="student data">
+        <thead>
+            <tr>
+
+                <th colspan="2">NAME</th>
+                <th>AGE</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+
+                <td>shivam </td>
+                <td>verma </td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>shashwat </td>
+                <td>panday</td>
+                <td>19</td>
+
+            </tr>
+            <tr>
+                <td>sanskar</td>
+                <td>gaur</td>
+                <td>18</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <!-- nested table -->
+    <table border="3" cellspacing="0" cellpadding="4">
+        <tr>
+            <td>upper table 1</td>
+            <td>upper table 2</td>
+        </tr>
+        <tr>
+            <td>lower table 1</td>
+            <td>
+                <table border="1" cellspacing="0" cellpadding="2">
+                    <tbody>
+                        <tr>
+                            <td>inner table 11</td>
+                            <td>inner table 12</td>
+                        </tr>
+                        <tr>
+                            <td>inner table 21</td>
+                            <td>inner table 22</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="2"> 
+                    nested table 
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
